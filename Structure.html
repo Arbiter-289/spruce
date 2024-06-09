@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perro web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="encabezado">
+        <div class="logo">
+                <a target="_blank" href="https://minecraft.fandom.com/wiki/Dirt"> <img id="image" name="img" src="img/dirt.png"> </a>
+                <h2 id="title-logo">DIRT</h2>
+        </div>
+
+        <div>
+            <nav>
+                <a href="" class="nav-link">Inicio</a>
+                <a href="" class="nav-link">Tienda</a>
+                <a href="" class="nav-link">Contacto</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <div id="wallpaper">
+    </div>
+
+    <article>
+        <h1 class="text">The Magic of Procedural Generation: Minecraft's vast worlds aren't handcrafted, they're procedurally generated! This means a complex algorithm creates a unique world every time you start a new game. It uses a combination of:</h1>
+
+        <p id="doggy" class="text"></p>
+        <nav id="script" class="text"><p></p></nav>
+        <div class="botones">
+            <button  class="boton" onclick="cat()">Yuh uh</button>
+            <button  class="boton" onclick="dog()">Nuh uh</button>
+            <button  class="add" onclick="addText()">Add +</button>
+            <button class="remove" onclick="removeText()">remove -</button>
+            <button class="backGround" onclick="changeWallpaper()">Change</button>
+        </div>
+        <br>
+    </article>
+
+    <script src="libs/jquery-2.1.1.min.js" ></script>
+    <script src="code.js" > </script>
+</body>
+</html>

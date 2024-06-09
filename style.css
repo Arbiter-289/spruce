@@ -1,0 +1,151 @@
+body {
+    font-family: minecraft;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600px;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#title-logo {
+    color: rgb(206, 200, 200);
+}
+
+#title-logo:hover {
+    color: rgb(142, 48, 11);
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(130, 223, 36);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+#image {
+    height: 60px;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/minecraft/Minecraft.ttf);
+}
+
+@media (max-width:400px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+#wallpaper {
+background-image: url(img/wall.png);
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+background-size: cover; /*En vez de usar 100% 100%, puedes usar cover*/
+}
+
+.text{
+     font-size: 20px; 
+     font-weight: 100;
+     margin-left: 10%;
+     margin-right: 10%;
+     color: rgb(40, 40, 40);
+}
+
+.botones{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.boton{
+    background-color: rgb(130, 223, 36);
+    color: rgb(0, 56, 0);
+    font-family: minecraft;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: rgb(108, 192, 25);;
+}
+
+.boton:active{
+    background-color: rgb(68, 117, 18);;
+}
+
+.add{
+    background-color: rgb(36, 211, 223);
+    color: rgb(0, 46, 56);
+    font-family: minecraft;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.add:hover{
+    background-color: rgb(31, 181, 192);
+}
+
+.add:active{
+    background-color: rgb(27, 159, 169);
+}
+
+.remove{
+    background-color: rgb(223, 36, 36);
+    color: rgb(56, 0, 0);
+    font-family: minecraft;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.remove:hover{
+    background-color: rgb(192, 31, 31);
+}
+
+.remove:active{
+    background-color: rgb(169, 27, 27);
+}
+
+.backGround{
+    background-color: rgb(120, 36, 223);
+    color: rgb(21, 2, 40);
+    font-family: minecraft;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+} 
+
+.backGround:hover{
+    background-color: rgb(114, 31, 192);
+}
+
+.backGround:active{
+background-color: rgb(86, 25, 152);
+}
