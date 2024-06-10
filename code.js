@@ -177,3 +177,80 @@ function addAnimal() {
 
     document.querySelector("#newAnimal").value = ""; 
 } 
+
+// class Persona {
+
+//      static contadorInstacias= 0;
+
+//     constructor (name ,cedula ,day ,month ,year, work, sueldo) {
+//         this.name = name ;
+//         this.cedula = cedula ;
+//         this.nacimiento = new date(year,month -1,day); 
+//         this.work = work;
+//         this.sueldo = sueldo;
+//         Persona.contadorInstacias++;
+        
+// }
+
+// getname(){
+//     return this.name;
+// }
+
+// getcedula(){
+//     return this.cedula;
+// }
+
+
+// getborn(){
+//     return this.nacimiento;
+// }
+
+
+// getwork(){
+//     return this.work;
+// }
+
+
+// getsueldo(){
+//     return this.sueldo;
+// }
+
+// setname(name){
+//     this.name=name;
+//  }
+
+
+//  setcedula(cedula){
+//     this.cedula=cedula;
+//  }
+
+//  setborn(day,month,year){
+//     this.nacimiento=new date(year, month-1, day);
+//  }
+
+//  setwork(work){
+//     this.work=work;
+//  }
+
+//  setsueldo(sueldo){
+//     this.sueldo=sueldo;
+//  }
+// calcularedad(){
+//     const hoy = new date();
+    
+//     let edad=hoy.getFullYear() - this.nacimiento.getFullYear();
+    
+//     const mes= hoy.getMonth()- this.nacimiento.getMonth();
+
+//     if (mes < 0 || (mes === 0 && hoy.getDate()< this.nacimiento.getDate() )) {
+//         edad--;
+//     } 
+
+//     return edad;
+ 
+//  }
+
+//     darAumento() { 
+//         this.sueldo *= 1.10;
+//     }
+// }
