@@ -162,6 +162,10 @@ function addAnimal() {
 
     let deleteButton = document.createElement("button");
     deleteButton.textContent = "Delete";
+    deleteButton.style.border = "none";
+    deleteButton.style.backgroundColor = "red";
+    deleteButton.style.cursor = "pointer";
+    deleteButton.style.color = "#2c0202";
     deleteButton.onclick = function() { 
 
         newObject.remove();
