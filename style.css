@@ -1,3 +1,12 @@
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/minecraft/Minecraft.ttf);
+}
+
+*{
+    font-family: minecraft;
+}
+
 body {
     font-family: minecraft;
     margin: 0;
@@ -22,6 +31,10 @@ nav a:hover {
     color: rgb(142, 48, 11);
 }
 
+.stats-change:hover {
+    color: rgb(13, 211, 20);
+}
+
 header {
     display: flex;
     min-height: 70px;
@@ -39,11 +52,6 @@ header {
 #image {
     height: 60px;
     margin-right: 10px;
-}
-
-@font-face {
-    font-family: minecraft;
-    src: url(fonts/minecraft/Minecraft.ttf);
 }
 
 @media (max-width:400px) {
@@ -129,7 +137,7 @@ background-size: cover; /*En vez de usar 100% 100%, puedes usar cover*/
 }
 
 .remove:active{
-    background-color: rgb(169, 27, 27);
+    background-color: rgb(158, 25, 25);
 }
 
 .backGround{
@@ -148,4 +156,24 @@ background-size: cover; /*En vez de usar 100% 100%, puedes usar cover*/
 
 .backGround:active{
 background-color: rgb(86, 25, 152);
+}
+
+.barra{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+#sent {
+    margin-left: 10px;
+}
+
+#animalList{
+    margin-left: 7%;
+    margin-right: 10%;
+}
+
+#animalTitle{
+    margin-left: 10%;
+    margin-right: 10%;
 }
