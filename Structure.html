@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Forest</title>
+    <title>Perro web</title>
     <link rel="stylesheet" href="style.css">
+    <script src="libs/jquery-2.1.1.min.js" ></script>
+    <script src="code.js" > </script>
 </head>
 <body>
     <header id="encabezado">
@@ -37,9 +39,14 @@
             <button class="backGround" onclick="changeWallpaper()">Change</button>
         </div>
         <br>
-    </article>
+        <h1 id="animalTitle">ANIMAL LIST</h1>
+        <div class="barra">
+            <input type="text" id="newAnimal" placeholder="Enter a animal">
+            <button class="sent" onclick="addAnimal()"> Add +</button>
+        </div>
+        <ul id="animalList">
+        </ul>
 
-    <script src="libs/jquery-2.1.1.min.js" ></script>
-    <script src="code.js" > </script>
+    </article>
 </body>
 </html>
